@@ -4,7 +4,7 @@ package com.zyz.design.factorymethod;
  * 数据库日志记录器工厂类：具体工厂
  * Created by zyz on 2017/3/3.
  */
-public class DatabaseLoggerFactory implements LoggerFactory{
+public class DatabaseLoggerFactory extends LoggerFactory{
 
     @Override
     public Logger createLogger() {
