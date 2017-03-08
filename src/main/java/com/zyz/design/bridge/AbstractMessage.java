@@ -14,4 +14,11 @@ public abstract class AbstractMessage {
     public void sendMessage(String message,String toUser){
         this.messageImplementor.send(message,toUser);
     }
+
+
+
+
+
 }
+
+
